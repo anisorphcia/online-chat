@@ -1,0 +1,41 @@
+# 通用忽略规则
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+.idea
+.vscode
+.env
+.env.local
+*.env
+
+# 前端项目 (React) 忽略规则
+chat-client/node_modules/
+chat-client/.env
+chat-client/.env.local
+chat-client/build/
+chat-client/dist/
+chat-client/.cache/
+chat-client/coverage/
+chat-client/.DS_Store
+chat-client/.eslintcache
+chat-client/npm-debug.log*
+chat-client/yarn-debug.log*
+chat-client/yarn-error.log*
+
+# 后端项目 (Node.js) 忽略规则
+server/node_modules/
+server/.env
+server/.env.local
+server/logs/
+server/*.log
+server/.DS_Store
+server/.eslintcache
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/coverage/
+
+# 系统文件
+Thumbs.db
