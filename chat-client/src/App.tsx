@@ -1,8 +1,8 @@
-import Chat from './components/Chat'
+import Demo from './components/Demo'
 
 function App() {
 
-  return <Chat />
+  return <Demo />
 
 }
 
